@@ -1,5 +1,5 @@
 <h3> HTML y CSS</h3>
--estructura mínima de una web <br>
+<h4>-estructura mínima de una web </h4><br>
 -explica las 3 formas de usar CSS en HTML<br>
 -crea una lista sin ordenar con 5 ingredientes de una receta de cocina<br>
 -como se puede incluir javascript en HTML<br>
