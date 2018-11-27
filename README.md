@@ -1,6 +1,6 @@
 # Subir los trozos de código realizados en clase a tu github.
 # HTML y CSS
--estructura mínima de una web
+-estructura mínima de una web <br>
 -explica las 3 formas de usar CSS en HTML
 -crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 -como se puede incluir javascript en HTML
