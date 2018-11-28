@@ -11,8 +11,8 @@
 </body>
 </html>
 ```
-<p>Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
-</p>
+Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
+
 <h4>-explica las 3 formas de usar CSS en HTML</h4>
 <h4>-crea una lista sin ordenar con 5 ingredientes de una receta de cocina</h4>
 <h4>-como se puede incluir javascript en HTML</h4>
