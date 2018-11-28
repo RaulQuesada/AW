@@ -11,7 +11,7 @@
 ```
 <br>Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
 
-###-explica las 3 formas de usar CSS en HTML
+### Explica las 3 formas de usar CSS en HTML
 ### Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 ### Como se puede incluir javascript en HTML
 ### ¿Que diferencia hay entre una clase y una ID
