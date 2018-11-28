@@ -12,7 +12,23 @@
 <br>Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
 
 ### Explica las 3 formas de usar CSS en HTML
-##### Externo
+#### Interno
+Añadir en la cabecera HTML del documento, mediante style. Hay que tener en cuenta que utilizándolo, arruinamos la ventaja de tener los estilos en un documento independiente, por lo que siempre es preferible guardarlo en un archivo externo CSS que expliquaré a continuación.
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<style type="text/css">
+       		div {
+         	color:red;
+      	 }
+   	 </style>
+		<title></title>
+	</head>
+	</body>
+	</html>
+```
+#### Externo
 En la cabecera del HTML,incluimos una relación al archivo CSS en cuestión. Los navegadores sabrán que deben aplicar los estilos del archivo, ejemplo.css al documento HTML actual.
 ```html
 	<!DOCTYPE html>
