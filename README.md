@@ -25,6 +25,7 @@ Añadir en la cabecera HTML del documento, mediante style. Hay que tener en cuen
    	 </style>
 		<title></title>
 	</head>
+	<body>
 	</body>
 	</html>
 ```
@@ -37,6 +38,20 @@ En la cabecera del HTML,incluimos una relación al archivo CSS en cuestión. Los
 	<link rel="stylesheet" type="text/css" href="ejemplo.css" />
 		<title></title>
 	</head>
+	<body>
+	</body>
+	</html>
+```
+#### Inline
+Se puede hacer directamente en las propias etiquetas, a través de "span style":
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<article> Buenas <span style="background-color:blue>amigo lector</span>
 	</body>
 	</html>
 ```
