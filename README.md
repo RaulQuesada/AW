@@ -1,4 +1,4 @@
-<h3> HTML y CSS</h3>
+ HTML y CSS
 -estructura mínima de una web 
 ```html
 	<!DOCTYPE html>
