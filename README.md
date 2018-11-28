@@ -12,6 +12,17 @@
 <br>Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
 
 ### Explica las 3 formas de usar CSS en HTML
+En la cabecera del HTML,incluimos una relación al archivo CSS en cuestión. Los navegadores sabrán que deben aplicar los estilos del archivo al documento HTML actual.
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="index.css" />
+		<title></title>
+	</head>
+	</body>
+	</html>
+```
 ### Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
 ### Como se puede incluir javascript en HTML
 ### ¿Que diferencia hay entre una clase y una ID
