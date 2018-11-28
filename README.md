@@ -56,6 +56,26 @@ Se puede hacer directamente en las propias etiquetas, a través de "span style":
 	</html>
 ```
 ### Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
+En el body ponemos <ul> para lista desordenadas i para cada uno de los elementos ponemos <li> para identificarlos
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<style type="text/css">
+   	 </style>
+		<title></title>
+	</head>
+	<body>
+	<ul>
+  		<li>Harina</li>
+  		<li>Te</li>
+  		<li>Leche</li>
+		<li>Pan</li>
+		<li>Berberechos</li>
+	</ul>
+	</body>
+	</html>
+```
 ### Como se puede incluir javascript en HTML
 ### ¿Que diferencia hay entre una clase y una ID
 ### Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
