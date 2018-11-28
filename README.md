@@ -1,15 +1,13 @@
 <h3> HTML y CSS</h3>
 -estructura mínima de una web 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
-
-</body>
-</html>
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	</body>
+	</html>
 ```
 <br>Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
 
