@@ -1,5 +1,5 @@
  HTML y CSS<br>
-#Estructura mínima de una web 
+# Estructura mínima de una web 
 ```html
 	<!DOCTYPE html>
 	<html>
