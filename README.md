@@ -56,7 +56,7 @@ Se puede hacer directamente en las propias etiquetas, a través de "span style":
 	</html>
 ```
 ### Crea una lista sin ordenar con 5 ingredientes de una receta de cocina
-En el body ponemos <ul> para lista desordenadas i para cada uno de los elementos ponemos <li> para identificarlos
+En el body ponemos "ul" para lista desordenadas i para cada uno de los elementos ponemos "li" para identificarlos
 ```html
 	<!DOCTYPE html>
 	<html>
