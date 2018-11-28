@@ -1,5 +1,6 @@
 <h3> HTML y CSS</h3>
 <h4>-estructura mínima de una web </h4>
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +10,7 @@
 
 </body>
 </html>
-
+```
 <p>Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
 </p>
 <h4>-explica las 3 formas de usar CSS en HTML</h4>
