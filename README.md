@@ -1,5 +1,17 @@
 <h3> HTML y CSS</h3>
 <h4>-estructura mínima de una web </h4>
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+<p>Por ejemplo en Sublime, donde pone "Plain text", seleccionamos HTML, y escribimos en la primer linea "html", tabulamos y nos saldra la estructura basica para trabajar.
+</p>
 <h4>-explica las 3 formas de usar CSS en HTML</h4>
 <h4>-crea una lista sin ordenar con 5 ingredientes de una receta de cocina</h4>
 <h4>-como se puede incluir javascript en HTML</h4>
