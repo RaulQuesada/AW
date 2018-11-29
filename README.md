@@ -187,6 +187,51 @@ A diferencia del valor del atributo “id”, puede ser utilizado en más de un 
 	</html>
 ```
 ### ¿Qué son las pseudoclases?, pon ejemplos.
+Una pseudoclase CSS es una palabra clave que se añade a los selectores y que especifica un estado especial del elemento seleccionado. Estas permiten aplicar un estilo a un elemento no sólo en relación con el contenido del árbol de documento, sino también en relación a factores externos como el historial del navegador (:visited, por ejemplo), el estado de su contenido (como :active, que es cuando el usuario activ auna funcion), o la posición del ratón (como :hover que permite saber si el ratón está encima de un elemento o no).
+#### Ejemplo :visited
+La pseudo-clase (:visited) representa enlaces que el usuario ya ha visitado
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	<style>
+		a {
+  		background-color: white;
+  		border: 1px solid blue;
+		}
+
+		a:visited {
+	  	background-color: white;
+  		border-color: hotpink;
+  		color: hotpink;
+		}
+	</style>
+	</head>
+	<body>
+	<a href="">Este enlace ha sido visto.</a>
+	</body>
+	</html>
+```
+Si no hemos entrado en el enlace nos saldran las letras de color azul con fondo blanco , en cambio si ya hemos entrado alguna vez, nos saldra con fondo blanco y las letras de color rosa chillon.
+#### Ejemplo :active
+Representa un elemento como el boton, que el usuario está activando.  Cuando se usa el mouse, la activación generalmente comienza cuando el usuario presiona el botón del mouse y termina cuando este se ha soltado.
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	<style>
+		a:active {
+		color: lightblue; 
+		}
+	</style>
+	</head>
+	<body>
+	<a href="Ejemplo">Si activamos este enlace cambiará su color a azul claro</a>
+	</body>
+	</html>
+```
 ### Explica el modelo de caja de CSS (margin, border y padding)
 ### Explica que son los selectores de CSS y pon ejemplos
 ### Di a quien afectan:
