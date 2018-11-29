@@ -288,6 +288,7 @@ En el ejemplo vemos como el width es de 150px pero sumandole las tres funciones 
 ### Explica que son los selectores de CSS y pon ejemplos
 ### Di a quien afectan:
  ###### p a { color: red;<br>
+ A los valores a que esten dentro de p, independientemente de su posicion
  ###### p > a { color: red; }<br>
  ###### h1 + h2 { color: red }<br>
  ###### a[class] { color: blue; }<br>
