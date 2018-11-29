@@ -232,7 +232,59 @@ Representa un elemento como el boton, que el usuario está activando.  Cuando se
 	</body>
 	</html>
 ```
+#### Ejemplo : hover
+Cuando el usuario interactúa con un elemento con un dispositivo señalador,como por ejemplo el mouse, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre dicho elemento con el cursor
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	<style>
+		a {
+ 		 background-color: blue;
+		}
+
+		a:hover {
+		background-color: yellow; 
+		}
+	</style>
+	</head>
+	<body>
+	<a href="Ejemplo">Pasa el mouse por aqui.</a>
+	</body>
+	</html>
+```
+Asi de esta forma cuando tengamos el cursos encima del enlace, este cambiara de color de azul a amarillo
 ### Explica el modelo de caja de CSS (margin, border y padding)
+El margin es el espacio que se deja entre el elemento en el que le ponemos el estilo y los diferentes elementos.
+<br>
+El padding es el espacio que se deja dentro de la caja para empezar a poner cosas dentro
+<br>
+El border como su propio nombre indica proporciona un borde adcional a la dimension del elemento o caja con dimensiones relativas
+<br>
+Si proporcionamos estos tres funciones a un mismo elemento, si este antes tenia un width de: 150px pasaran a sumarse estos tres ultimos valores.  Por ejemplo
+```html
+<html>
+<head>
+	<title> Cajitas </title>
+	<style type="text/css">
+		div{
+			margin:25px;
+			padding: 20px;
+			border: 5px;
+			width: 150px;
+			height: 150px;
+		}
+	</style>
+</head>
+<body>
+	<div>Espacio de trabajo</div>
+	
+</body>
+
+</html>
+```
+En el ejemplo vemos como el width es de 150px pero sumandole las tres funciones quedaria una dimension de la caja total de 200px
 ### Explica que son los selectores de CSS y pon ejemplos
 ### Di a quien afectan:
   p a { color: red;<br>
