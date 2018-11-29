@@ -1,4 +1,4 @@
-# HTML y CSS *aun no terminado*<br>
+# HTML y CSS<br>
 ### Estructura mínima de una web 
 ```html
 	<!DOCTYPE html>
@@ -286,11 +286,18 @@ Si proporcionamos estos tres funciones a un mismo elemento, si este antes tenia 
 ```
 En el ejemplo vemos como el width es de 150px pero sumandole las tres funciones quedaria una dimension de la caja total de 200px
 ### Explica que son los selectores de CSS y pon ejemplos
+Basicamente se usa para identificar secciones de nuestra página en el código CSS
 ### Di a quien afectan:
  ###### p a { color: red;<br>
- A los valores a que esten dentro de p, independientemente de su posicion
+ A los valores a que esten dentro de "p", independientemente de su posicion
  ###### p > a { color: red; }<br>
+ A todos los a hijos directos de "p".
  ###### h1 + h2 { color: red }<br>
+ A todos los elementos "h2" que estén después de un elemento "h1".
  ###### a[class] { color: blue; }<br>
+ A los elemento que contengan una clase.
  ###### a[class="externo"] { color: blue; }<br>
+ Las a que contengan la clase "externo".
  ###### a[href="http://www.ejemplo.com"] { color: blue; }
+ A dicho link.
+ 
