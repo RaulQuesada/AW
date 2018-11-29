@@ -6,6 +6,7 @@
 	<head>
 		<title></title>
 	</head>
+	<body>
 	</body>
 	</html>
 ```
@@ -174,6 +175,17 @@ A diferencia del valor del atributo “id”, puede ser utilizado en más de un 
 </html>
 ```
 ### Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
+```html
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<a target="_blank" href="https://www.w3schools.com/css/exercise.asp">Ejercicios CSS</a>
+	</body>
+	</html>
+```
 ### ¿Qué son las pseudoclases?, pon ejemplos.
 ### Explica el modelo de caja de CSS (margin, border y padding)
 ### Explica que son los selectores de CSS y pon ejemplos
