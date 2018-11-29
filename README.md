@@ -95,6 +95,84 @@ Dentro del body ponemos la funcion "script" y ponemos lo que deseamos como por e
 ```
 Y nos saldría la alerta cuando entremos en la página web o al reiniciarla
 ### ¿Que diferencia hay entre una clase y una ID
+#### ID
+El atributo “id” de un elemento es único así que no debería haber otro elemento con el mismo nombre de identificador (id) dentro del documento HTML.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Cajitas </title>
+	<style type="text/css">
+		div{
+			margin:0 0 25px;
+			overflow: hidden;
+			padding: 20px;
+			width: 180px;
+			height: 180px;
+		}
+		#CajaAzul{
+			
+			background-color: #d8ecf7;
+			border: 1px solid #afcde3; 
+		}
+
+		#CajaRoja{
+			
+			background-color: #A00;
+			border: 1px solid #F00; 
+		}
+
+		#CajaVerde{
+			
+			background-color: green;
+			border: 1px solid #0F0;
+		}
+	</style>
+</head>
+<body>
+	<div id="CajaAzul"><center>Caja azul</center></div>
+	<div id="CajaRoja"><center>Caja roja</center></div>
+	<div id="CajaVerde"><center>Caja verde</center></div>
+</body>
+
+</html>
+```
+#### CLASS
+A diferencia del valor del atributo “id”, puede ser utilizado en más de un elemento del documento HTML, esto nos es importante cuando aplicamos los mismos estilos a diferentes elementos, dado que nos permite reducir las líneas de código en nuestro archivo .css.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+	.container{
+		text-align: center;
+	}
+	.container div{
+		border: 1px solid lightblue;
+		width: 19%;
+		height: 120px;
+		display: inline-block; 
+
+	}	
+
+	</style>
+
+</head>
+<body>
+
+<div class="container">
+	<div>PRUEBA</div>
+	<div>PRUEBA</div>
+	<div>PRUEBA</div>
+
+
+</div>
+
+</body>
+</html>
+```
 ### Código para hacer un enlace a otra página y que esta se abra en una nueva ventana
 ### ¿Qué son las pseudoclases?, pon ejemplos.
 ### Explica el modelo de caja de CSS (margin, border y padding)
