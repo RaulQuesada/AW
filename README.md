@@ -1,4 +1,4 @@
-# HTML y CSS<br>
+# HTML y CSS *aun no terminado*<br>
 ### Estructura mínima de una web 
 ```html
 	<!DOCTYPE html>
