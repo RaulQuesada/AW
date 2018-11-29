@@ -287,9 +287,9 @@ Si proporcionamos estos tres funciones a un mismo elemento, si este antes tenia 
 En el ejemplo vemos como el width es de 150px pero sumandole las tres funciones quedaria una dimension de la caja total de 200px
 ### Explica que son los selectores de CSS y pon ejemplos
 ### Di a quien afectan:
-  p a { color: red;<br>
-  p > a { color: red; }<br>
-  h1 + h2 { color: red }<br>
-  a[class] { color: blue; }<br>
-  a[class="externo"] { color: blue; }<br>
-  a[href="http://www.ejemplo.com"] { color: blue; }
+ ###### p a { color: red;<br>
+ ###### p > a { color: red; }<br>
+ ###### h1 + h2 { color: red }<br>
+ ###### a[class] { color: blue; }<br>
+ ###### a[class="externo"] { color: blue; }<br>
+ ###### a[href="http://www.ejemplo.com"] { color: blue; }
