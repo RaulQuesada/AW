@@ -4,7 +4,7 @@ Cambios a la plantilla:
 Parte de Wordress:
 
 -Añadir 3 Widgets: 
-<br>
+
   ·Un video del trailer de Clash Royale
   
   ·Entradas recientes de todos los meses
